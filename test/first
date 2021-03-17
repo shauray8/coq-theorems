@@ -1,0 +1,13 @@
+Theorem my_first : (forall A: Prop, A -> A).
+Proof.
+  intros A.
+  intros proof_of_A.
+  exact proof_of_A.
+Qed.
+
+Lemma irrational : (p*p = 2*q*q).
+Proof.
+  intros P.
+  intros q.
+  done.
+Qed.
