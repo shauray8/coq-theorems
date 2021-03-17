@@ -7,7 +7,7 @@ A very simple intorduction to [COQ](https://mdnahas.github.io/doc/nahas_tutorial
 # p/q = sqrt(2) 
 # p*p/q*q = 2 
 # p*p = 2*q*q 
-# the program will never hault ! <br>
+# the program will never hault ! 
 
 p = 1
 while 1:
