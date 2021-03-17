@@ -1,6 +1,6 @@
 # writing a language we can prove things in 
 
-A very simple intorduction to [COQ](https://mdnahas.github.io/doc/nahas_tutorial)
+A very simple intorduction to [COQ](https://mdnahas.github.io/doc/nahas_tutorial) [COQ2](https://learnxinyminutes.com/docs/coq/)
 
 ```python
  
