@@ -22,6 +22,11 @@ A theoremis a justified assertion that some statement of the form P => Q is true
 2.¬(P∨Q)⇐⇒ ¬P∧¬Q
 ```
 - Let m,n∈Z. Both m and n are odd if and only if the product mn is odd.
+- if n is an integer, then n^2 has remainder 0 or 1 upon dividing by 3 
+- x^17 + 12x^3 + 13x + 3 = 0 has no positive (real number) solutions
+- If x,y are positive real numbers, then (x+y)/2 ≥ √xy with equality if and only if x=y.
+- If x1, . . . ,xn > 0 then (x1+···+xn)/n ≥ n√x1···xn, with equality if and only if x1=···=xn
+- There are infinitely many prime numbers
 - 
 
 ## how to write a proof
