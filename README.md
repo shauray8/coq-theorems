@@ -1,20 +1,31 @@
 # writing a language we can prove things in 
 
-A very simple intorduction to [COQ](https://mdnahas.github.io/doc/nahas_tutorial) [COQ2](https://learnxinyminutes.com/docs/coq/)
+A very simple intorduction to [COQ](https://mdnahas.github.io/doc/nahas_tutorial), alternative resorce --> [COQ2](https://learnxinyminutes.com/docs/coq/)
 
 ## what exactly is a proof 
 A theoremis a justified assertion that some statement of the form P => Q is true. A proof is an argument that justifies the truth of a theorem.
 
+* proof by contrapositive
+
 ## Proofs (todo)
-- [] The sum of any two even integers is even 
+- The sum of any two even integers is even 
 ```
   An integer is even if it may be written in the form of 2n where n is an integer
 ```
-- [] The product of two odd integers is odd
-- [] If n is any odd integer, then n^2−1 is a multiple of 8
+- The product of two odd integers is odd
+- If n is any odd integer, then n^2−1 is a multiple of 8
+- The contrapositive of an implication is logically equivalent the original implication.
+- Let x and y be two integers. If x+y is odd, then exactly one of x or y is odd
+- (De Morgan’s laws).Let P and Q be any propositions. Then:
+```
+1.¬(P∧Q)⇐⇒ ¬P∨¬Q.
+2.¬(P∨Q)⇐⇒ ¬P∧¬Q
+```
+- Let m,n∈Z. Both m and n are odd if and only if the product mn is odd.
+- 
 
 ## how to write a proof
-1. the moral of the story is this: to show that a conjecture is true you must prove that it holds forall the cases in consideration, but to show that it is false a single counter example suffices investigate, spot a pattern, conjecture, prove, and finally present your work inas clean and convincing a manner as you can
+1. the moral of the story is this: to show that a conjecture is true you must prove that it holds for all the cases in consideration, but to show that it is false a single counter example suffices investigate, spot a pattern, conjecture, prove, and finally present your work inas clean and convincing a manner as you can
 
 ## this is what happens when you try to prove something in python !
 
