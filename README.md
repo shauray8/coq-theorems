@@ -1,6 +1,6 @@
 # writing a language we can prove things in 
 
-A very simple intorduction to [COQ](https://mdnahas.github.io/doc/nahas_tutorial), alternative resorce --> [COQ2](https://learnxinyminutes.com/docs/coq/)
+A very simple intorduction to [COQ](https://mdnahas.github.io/doc/nahas_tutorial), alternative resorce --> [COQ2](https://learnxinyminutes.com/docs/coq/), Using this as a reference [learn COQ]("https://cel.archives-ouvertes.fr/inria-00001173v6/document")
 
 ## what exactly is a proof 
 A theoremis a justified assertion that some statement of the form P => Q is true. A proof is an argument that justifies the truth of a theorem.
